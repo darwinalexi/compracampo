@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 500px;
+    max-width: 100%;
+}
+h1{
+   display: flex;
+   justify-content: center; 
+}
+img{
+    width: 50vh;
+    height: 30vh;
+    padding: 23px;
+    min-width: 50vh;
+    max-width: 65vh;
+   position: absolute;
+   top: 5%;
+   left: 33%;
+   margin-right: 80px;
+}
