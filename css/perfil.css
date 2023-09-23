@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    min-width: auto;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body::before{
+    content: "";
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100vmax;
+    margin: 0%;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+   }
+.main{
+    display: grid;
+    grid-template-columns: 120px 90px ;
+    grid-template-rows: 100px 100px;
+    position: relative;
+    top: 100px;
+    gap: 200px;
+    padding: 12px;
+}
+.foto{ 
+width: 35vh;
+height: 30vh;
+border-radius: 21px  black;
+margin-right:30px;
+}
+.foto > img{
+    width: 35vh;
+    height: 25vh;
+}
+.info{
+    background-color:#D8D7D5  ;
+    border-radius:10px ;
+    width: 90vh;
+    height: auto;
+    margin-left: 70px;
+}
+.informacion{
+    background-color:#D8D7D5  ;
+    border-radius:50px ;
+    width: 50vh;
+    height: 300px;
+}
+.informacion > p{
+    padding-top: 12px;
+    padding: 12px;
+}
+.informacion > h1{
+    padding: 12px;
+    font-size: 50px;
+}
+.compras{
+    display: grid;
+    grid-template-columns: 100px 100px 100px; 
+    grid-template-rows: 100px 100px;
+    gap :120px;
+    position: relative;
+    left: 100px;
+    margin-left: 100px;
+}
+.compras > h1{
+    grid-column: 1/-1;
+    align-items: center;
+    grid-row: 1;
+
+}
+.compra > img{
+    width: 150px;
+    height: 150px;
+}
+.compra > .frijol{
+    width: 150px;
+    height: 100px;
+}
+.compra{
+width: 180px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-size: 1.6em;
+}

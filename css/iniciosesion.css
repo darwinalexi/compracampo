@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -34,5 +35,39 @@ body::before{
     transform: translateX(-50%); /* Centrar horizontalmente */
     width: 320px;
     background-color: 	#FCD0B4;
-    height: 45vh;
+    height: auto;
+}
+button{
+    border-radius: 12px;
+    width: 150px;
+    margin: 12px;
+    height: 20px;
+    transition: 1s;
+    background-color: #A7EB94;
+}
+button:hover{
+    background-color: transparent;
+}
+h1{
+    padding-top: 50px;
+    padding-bottom: 12px;
+}
+label{
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    width: 200px;
+    border: none;
+    border-bottom: 1px black solid;
+    background-color: transparent;
+}
+input:focus{
+    outline: none;
+}
+P{
+    font-size: 12PX;
 }
