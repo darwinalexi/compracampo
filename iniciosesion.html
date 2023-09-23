@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/iniciosesion.css">
-    <link rel="icon" href="img/Logo.png">
+    <link rel="stylesheet" href="css/iniciosesion.css">
+    <link rel="icon" href="img/logo.png">
+    <script src="js/iniciosecion.js"></script>
     <title>INICIAR SESION </title>
 </head>
 <body>
+    
     <div class="iniciarsecion">
-        <h1>INICIA SESION</h1>
+        <h1>INICIAR SESION</h1>
         <label>INGRESA TU USUARIO</label>
-        <input type="text" name="" id="">
+        <input type="email" placeholder="Ingrese su usuario" id="user">
         <label>INGRESE SU CLAVE</label>
-        <input type="number" name="" id="">
+        <input type="password" placeholder="Ingrese su clave" id="password">
+        <p>¿Olvido su contraseña?</p>
         <button><a href="registro.html">REGISTRAR</a></button></button>
-        <button>INICIAR SESION</button>
+        <button onclick="validar()">INICIAR SESION</button>
     </div>
 </body>
 </html>

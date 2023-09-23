@@ -21,7 +21,7 @@
   .logo{
     border-radius: 15px;
     grid-area: logo;
-    background-image: url("../img/LOG.jpg");
+    background-image: url("../img/logo.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@
     grid-area: main-menu ;
     display: none;
     width: 100%;
-    background-image: url(../img/menu.jpg); 
+    background-image: url(../img/img/menu.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,8 @@
   }
   .main-img{
     grid-area: main-img ;
-    background-image: url("../img/paisaje.jpg");
+    background-image: url("../img/image-principal.jpg");
+    
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,13 +95,13 @@
   }
   .img-1{
     width: 100%;
-    background-image: url(../img/img1.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/productos/zanahoria.jpeg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .img-2{
-    background-image: url(../img/pexels-matteo-badini-4064432.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/img/pexels-matteo-badini-4064432.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +109,7 @@
   .img-3{
     
     width: 100%;
-    background-image: url(../img/pexels-gianluca-grisenti-4215113.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/img/pexels-pixabay-50594.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +117,7 @@
   .img-4{
     
     width: 100%;
-    background-image: url(../img/andres.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/img/andres.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +126,7 @@
   .img-5{
     
     width: 100%;
-    background-image: url(../img/pexels-stephan-seeber-1261728.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/img/pexels-stephan-seeber-1261728.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +135,7 @@
   .img-6{
     
     width: 100%;
-    background-image: url(../img/pexels-photo-531321.jpeg); /* este es sin aumentp vista pc */
+    background-image: url(../img/img/pexels-photo-531321.jpeg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

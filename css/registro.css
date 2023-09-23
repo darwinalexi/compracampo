@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family:sans-serif ;
 }
 
 body {
@@ -18,12 +19,12 @@ body {
     align-items: center;
     border-radius: 5%;
     position: absolute;
-    top: 30%;
+    top: 23vh;
     left: 50%; 
     transform: translateX(-50%);
     width: 320px;
     background-color: #323830;
-    height: 55vh;
+    height: auto;
 }
 
 input {
@@ -51,6 +52,7 @@ h1 {
     justify-content: center;
     color: antiquewhite;
     font-size: 1em;
+    padding:20px;
 }
 
 p {
@@ -58,13 +60,16 @@ p {
     width: 50%;
 }
 
-button {
+.registro > button {
     display: inline-block;
-    border-radius: 5%;
-  margin-top: 3px;
+    border-radius: 17px;
     background-color: #A18262;
+    margin: 15px;
+    width: 120px;
+
+
 }
-button:hover{
+.registro > button:hover{
     background-color: transparent;
     border-radius: 12px black solid;
 }
