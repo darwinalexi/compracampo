@@ -101,7 +101,7 @@
     background-size: cover;
   }
   .img-2{
-    background-image: url(../img/img/pexels-matteo-badini-4064432.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/productos/cerdos.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +109,7 @@
   .img-3{
     
     width: 100%;
-    background-image: url(../img/img/pexels-pixabay-50594.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/productos/pollo.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@
   .img-4{
     
     width: 100%;
-    background-image: url(../img/img/andres.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/productos/gallinas.webp); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@
   .img-5{
     
     width: 100%;
-    background-image: url(../img/img/pexels-stephan-seeber-1261728.jpg); /* este es sin aumentp vista pc */
+    background-image: url(../img/productos/cilantro.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
