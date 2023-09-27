@@ -118,25 +118,21 @@
     
     width: 100%;
     background-image: url(../img/productos/gallinas.webp); /* este es sin aumentp vista pc */
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .img-5{
     
-    width: 100%;
+    width: 50%;
     background-image: url(../img/productos/cilantro.jpg); /* este es sin aumentp vista pc */
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .img-6{
-    
-    width: 100%;
+    width: 50%;
     background-image: url(../img/img/pexels-photo-531321.jpeg); /* este es sin aumentp vista pc */
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
