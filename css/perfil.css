@@ -3,6 +3,29 @@
     padding: 0;
     font-family: sans-serif;
 }
+
+body{
+    background-image: url(../img/pexels-lisa-fotios-4039451.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.perfil {
+    border-radius: 100%;
+}
+body::before{
+    content: "";
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100vmax;
+    margin: 0%;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+   }
 .main{
     display: grid;
     grid-template-columns: 120px 90px ;
@@ -13,15 +36,18 @@
     padding: 12px;
 }
 .foto{ 
-width: 35vh;
-height: 30vh;
-border-radius: 21px  black;
-margin-right:30px;
+    background-image: url(../img/pexels-thgusstavo-santana-1933873.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
-.foto > img{
+/* .foto > img{
     width: 35vh;
     height: 25vh;
-}
+} */
 .info{
     background-color:#D8D7D5  ;
     border-radius:10px ;
@@ -32,7 +58,7 @@ margin-right:30px;
 .informacion{
     background-color:#D8D7D5  ;
     border-radius:50px ;
-    width: 50vh;
+    width: 52vh;
     height: 300px;
 }
 .informacion > p{
@@ -46,7 +72,7 @@ margin-right:30px;
 .compras{
     display: grid;
     grid-template-columns: 100px 100px 100px; 
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 10px 100px;
     gap :120px;
     position: relative;
     left: 100px;

@@ -71,14 +71,3 @@ input:focus{
 P{
     font-size: 12PX;
 }
-.signal-main{
-width: 500px;
-height: 100px;
-background-color: yellow;
-z-index: 30;
-}
-.signal{
-    width: 500px;
-height: 100px;
-background-color: yellow;
-}
